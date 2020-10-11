@@ -42,6 +42,6 @@ for (x, y, w, h) in boxes:
                 (x, y - 20), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 0), 10)
 
 # Save Image to File
-cv2.imwrite('rulercam.png', res_img)
+cv2.imwrite('output.png', res_img)
 
 cv2.destroyAllWindows()
