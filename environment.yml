@@ -1,0 +1,9 @@
+name: rcenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - opencv=4.4.0
+  - pip=20.2.3
+  - pip:
+    - imutils==0.5.3
