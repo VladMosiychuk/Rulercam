@@ -32,7 +32,7 @@ cnts = [*filter(lambda c: areaRatio(c, image) > 1e-3, cnts)]
 ppcW = boxes[0][2] / 1.0
 ppcH = boxes[0][3] / 1.0
 
-# Draw bounding boxes ond object sizes
+# Draw bounding boxes and object sizes
 res_img = image.copy()
 for (x, y, w, h) in boxes:
 
